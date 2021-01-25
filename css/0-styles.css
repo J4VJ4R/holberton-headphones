@@ -1,27 +1,51 @@
 .header-align {
   text-align: center; }
 
-.navbar-menu {
-  float: right; }
+.align-header {
+  margin: 17rem 10.5rem; }
 
-.nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center; }
+.header {
+  padding-top: 2rem; }
 
-.nav .nav-item {
-  font-family: Source Sans Pro;
-  font-weight: 700;
-  letter-spacing: 4%;
-  display: inline-block; }
+.hero {
+  background-image: url("https://i.ibb.co/tHPMbCF/headphones-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5rem;
+  height: 800px; }
 
-.nav .nav-link {
-  display: block; }
+.btn-primary {
+  background: #FF6565;
+  width: 162px;
+  height: 44px;
+  border-radius: 30px; }
+  .btn-primary a {
+    font-size: 1.6rem; }
+
+.header-p-size {
+  font-size: 16px;
+  font-weight: 400; }
+
+.mt-header {
+  margin-top: 34rem; }
+
+.title-header {
+  font-size: 32px;
+  font-weight: 700; }
+
+.header-margin-btn {
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+html {
+  font-size: 62.5%; }
 
 body, a {
   text-decoration: none;
-  font-family: Source Sans Pro; }
+  font-family: Source Sans Pro;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  color: #FFFFFF; }
 
 *,
 *:before,
@@ -32,6 +56,42 @@ body, a {
   width: 960px;
   margin-left: auto;
   margin-right: auto; }
+
+.line-height-base {
+  line-height: 1.5rem; }
+
+.line-height-small {
+  line-height: 1.2rem; }
+
+.line-height-none {
+  line-height: 0; }
+
+.line-height-big {
+  line-height: 1.8rem; }
+
+.line-height-x-big {
+  line-height: 2.5rem; }
+
+.justify-text {
+  text-align: justify; }
+
+.text-center {
+  text-align: center; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mt-2 {
+  margin-top: 2rem; }
+
+.mt-3 {
+  margin-top: 3rem; }
+
+.mt-4 {
+  margin-top: 4rem; }
+
+.mt-5 {
+  margin-top: 5rem; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -160,5 +220,30 @@ template {
   display: none; }
 
 /*# sourceMappingURL=normalize.min.css.map */
+.navbar-menu {
+  float: right; }
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+.nav .nav-item {
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  letter-spacing: 4%;
+  display: inline-block;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  color: #FFFFFF; }
+
+.nav .nav-link {
+  display: block;
+  color: #FFFFFF;
+  font-size: 12px; }
+
+.section-logo {
+  display: inline-block; }
 
 /*# sourceMappingURL=0-styles.css.map */
