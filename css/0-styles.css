@@ -36,6 +36,7 @@
   margin-top: 34rem; }
 
 .header-margin-btn {
+  border: none;
   margin-top: 32px;
   margin-bottom: 32px; }
 
@@ -168,6 +169,36 @@ body, a {
 
 .mt-5 {
   margin-top: 5rem; }
+
+.mr-1 {
+  margin-right: 1rem; }
+
+.mr-2 {
+  margin-right: 2rem; }
+
+.mr-3 {
+  margin-right: 3rem; }
+
+.mr-4 {
+  margin-right: 4rem; }
+
+.mr-5 {
+  margin-right: 5rem; }
+
+.ml-1 {
+  margin-left: 1rem; }
+
+.ml-2 {
+  margin-left: 2rem; }
+
+.ml-3 {
+  margin-left: 3rem; }
+
+.ml-4 {
+  margin-left: 4rem; }
+
+.ml-5 {
+  margin-left: 5rem; }
 
 .section-we-do {
   color: #071629; }
