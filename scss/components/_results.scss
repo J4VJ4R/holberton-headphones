@@ -1,0 +1,246 @@
+.section-result {
+  display: flow-root;
+  padding: 0 5%;
+  background-image: url("https://i.ibb.co/s10wBf7/headphones-hero-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5rem;
+  max-width: 100%;
+  height: auto;
+  background-position: 37% 50%;
+
+  .group-title-results {
+    text-align: center;
+    margin-top: 10.5rem;
+
+    .title-result {
+      font-weight: 600;
+      font-size: 32px;
+      color: $white;
+      line-height: normal;
+    }
+
+    .description-results {
+      line-height: 2.6rem;
+      font-size: 16px;
+      color: $white;
+    }
+  }
+
+  .pentagones {
+    margin-bottom: 7.9rem;
+    margin-top: 7.7rem;
+
+    .box-pentagones {
+      text-align: center;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+
+    }
+
+    .pentagones-1 {
+      width: 50%;
+      vertical-align: top;
+      margin: 0px auto;
+      padding: 0px;
+      position: relative;
+
+      .title-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 60%;
+        font-size: 46px;
+        font-weight: bold;
+      }
+
+      .description-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 34%;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+
+    .pentagones-2 {
+      width: 50%;
+      vertical-align: top;
+      margin: 0px auto;
+      padding: 0px;
+      position: relative;
+
+      .title-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 60%;
+        font-size: 46px;
+        font-weight: bold;
+      }
+
+      .description-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 34%;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+
+    .pentagones-3 {
+      width: 50%;
+      vertical-align: top;
+      margin: 0px auto;
+      padding: 0px;
+      position: relative;
+
+      .title-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 60%;
+        font-size: 46px;
+        font-weight: bold;
+      }
+
+      .description-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 34%;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+
+    .pentagones-4 {
+      width: 50%;
+      vertical-align: top;
+      margin: 0px auto;
+      padding: 0px;
+      position: relative;
+
+      .title-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 60%;
+        font-size: 46px;
+        font-weight: bold;
+      }
+
+      .description-pentagone {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        z-index: 10;
+        height: 34%;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+
+  }
+}
+
+//for desktop
+@media (min-width: 1070px) {
+  .section-result {
+    .group-title-results {
+      .description-results {
+        margin: 0 19rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .pentagones {
+    .box-pentagones {
+      justify-content: space-between;
+      display: flex;
+
+      .group-tablet {
+        width: 100%;
+        display: flex;
+      }
+
+    }
+  }
+}
+
+//for tablet
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-result {
+    .pentagones {
+      .pentagones-1 {
+        margin: 4.2rem auto;
+      }
+      .pentagones-2 {
+        margin: 4.2rem auto;
+      }
+      .pentagones-3 {
+        margin: 4.2rem auto;
+      }
+      .pentagones-4 {
+        margin: 4.2rem auto 6.9rem auto;
+      }
+    }
+  }
+  .pentagones {
+    .box-pentagones {
+      .group-tablet {
+        display: flex;
+      }
+    }
+  }
+}
+
+//for mobile
+@media (max-width: 480px) {
+  .pentagones-1 {
+    .description-pentagone {
+      width: 66%;
+    }
+  }
+  .section-result {
+    .pentagones {
+      .pentagones-2 {
+        margin: 4.2rem auto;
+      }
+      .pentagones-3 {
+        margin: 4.2rem auto;
+      }
+      .pentagones-4 {
+        margin: 4.2rem auto 6.9rem auto;
+      }
+    }
+  }
+  .pentagones-2 {
+    .description-pentagone {
+      width: 66%;
+    }
+  }
+  .pentagones-3 {
+    .description-pentagone {
+      width: 66%;
+    }
+  }
+  .pentagones-4 {
+    .description-pentagone {
+      width: 66%;
+    }
+  }
+}
+

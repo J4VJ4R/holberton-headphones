@@ -1,0 +1,47 @@
+.contact-us{
+  margin-top: 11rem;
+  .title-conctact-us{
+    color: $secondary;
+    font-size: 32px;
+    text-align: center;
+  }
+  .contact-inputs{
+    .group-imputs-contacts{
+      width: 100%;
+      border: none;
+      border-bottom: solid 1px $bg-menu-mobile;
+      padding-bottom: 1.5rem;
+      margin-top: 4.4rem;
+    }
+    .group-imputs-contacts::placeholder{
+      color: $secondary;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  .btn-contact{
+    background: $primary;
+    text-align: center;
+    color: $white;
+    border-radius: 32px;
+    border: none;
+    width: 162px;
+    height: 44px;
+    margin-top: 5.6rem;
+    margin-bottom: 13rem;
+    font-size: 14px;
+  }
+}
+//for tablets
+@media (min-width: 480px) and (max-width: 767px) {
+  .contact-us{
+    width: 50%;
+    margin-top: 11rem;
+  }
+}
+//for desktop
+@media (min-width: 767px) {
+  .contact-us{
+    width: 30%;
+  }
+}

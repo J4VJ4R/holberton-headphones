@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+}
+
+body, a {
+  text-decoration: none;
+  font-family: $nav-item-font-family;
+  font-size: $font-size-medium;
+  line-height: $line-height-base;
+  color: $white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//GENERAL PADDINGS
+
+
+//LINE HEIGHT
+.line-height-base {
+  line-height: $line-height-base;
+}
+
+.line-height-small {
+  line-height: $line-height-small;
+}
+
+.line-height-none {
+  line-height: $line-height-none;
+}
+
+.line-height-big {
+  line-height: $line-height-big;
+}
+
+.line-height-x-big {
+  line-height: $line-height-x-big;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+//margins
+//margin top
+.mt-1 {
+  margin-top: $mt-1;
+}
+
+.mt-2 {
+  margin-top: $mt-2;
+}
+
+.mt-3 {
+  margin-top: $mt-3;
+}
+
+.mt-4 {
+  margin-top: $mt-4;
+}
+
+.mt-5 {
+  margin-top: $mt-5;
+}
+//margin right
+.mr-1 {
+  margin-right: $mr-1;
+}
+
+.mr-2 {
+  margin-right: $mr-2;
+}
+
+.mr-3 {
+  margin-right: $mr-3;
+}
+
+.mr-4 {
+  margin-right: $mr-4;
+}
+
+.mr-5 {
+  margin-right: $mr-5;
+}
+//margin left
+.ml-1 {
+  margin-left: $ml-1;
+}
+
+.ml-2 {
+  margin-left: $ml-2;
+}
+
+.ml-3 {
+  margin-left: $ml-3;
+}
+
+.ml-4 {
+  margin-left: $ml-4;
+}
+
+.ml-5 {
+  margin-left: $ml-5;
+}
+//COLORS
+.section-we-do {
+  color: $secondary;
+}

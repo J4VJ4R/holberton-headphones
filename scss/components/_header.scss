@@ -1,0 +1,102 @@
+.header-align {
+  text-align: $section-header-align;
+}
+
+.align-header {
+  margin: $section-header-title-margin;
+}
+
+.header {
+  padding-top: $pt-2;
+}
+
+.line-height-desktop {
+  margin-top: -2rem;
+}
+
+.hero {
+  background-image: url("https://i.ibb.co/tHPMbCF/headphones-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5rem;
+  max-width: 100%;
+  height: auto;
+  background-position: 37% 50%;
+}
+
+.btn-primary {
+  background: $primary;
+  width: 162px;
+  height: 44px;
+  border-radius: 30px;
+
+  a {
+    font-size: 14px;
+    font-weight: $font-weight-bold;
+  }
+}
+
+.header-p-size {
+  font-size: 16px;
+  font-weight: $font-weight-regular;
+}
+
+.mt-header {
+  margin-top: 34rem;
+}
+
+.header-margin-btn {
+  border: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 480px) {
+  .mt-header {
+    margin-top: 10rem;
+  }
+  .header-p-size {
+    font-size: 16px;
+    font-weight: $font-weight-regular;
+    text-justify: auto;
+  }
+  .align-header {
+    margin: 28rem 1rem 0 1rem;
+  }
+  .header-align {
+    .line-height-base {
+      line-height: 4rem;
+    }
+
+    .line-height-mobile {
+      line-height: 2rem;
+      margin-right: 5rem;
+      margin-left: 5rem;
+      margin-top: -2rem;
+    }
+  }
+  .header-margin-btn {
+    margin-top: 1rem;
+    margin-bottom: 68px;
+  }
+
+}
+
+.title-header {
+  font-size: 34px;
+  font-weight: $font-weight-bold;
+  line-height: 4rem;
+}
+
+@media (max-width: 767px) {
+  .section-hero {
+    margin: -0.1rem 0;
+  }
+  .hero-homepage {
+    background-position: 85% 0;
+  }
+}
+
+
+
+
