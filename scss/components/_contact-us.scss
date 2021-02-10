@@ -42,6 +42,20 @@
 //for desktop
 @media (min-width: 767px) {
   .contact-us{
+    width: 7%;
+  }
+}
+.contact-us{
+  @include display(tablet-small-down){
     width: 30%;
   }
+  @include display(mobile){
+    width: 100%;
+  }
+}
+.contact-us-width{
+  @include display(mobile){
+    width: 100%;
+  }
+  width: 30%;
 }

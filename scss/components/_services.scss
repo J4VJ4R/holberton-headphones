@@ -51,11 +51,6 @@
       margin: 10rem 2.5rem;
     }
 
-    h3 {
-      font-size: 18px;
-      font-weight: bolder;
-    }
-
     .we-do-p-size {
       margin: 0 7.5rem !important;
     }
@@ -85,4 +80,14 @@
     }
   }
 
+}
+.row--column{
+  @include display(tablet-small-down){
+    flex-direction: column;
+    padding: 0 148px;
+  }
+  @include display(mobile){
+    flex-direction: column;
+    padding: 0;
+  }
 }

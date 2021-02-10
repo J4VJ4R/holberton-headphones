@@ -17,13 +17,17 @@ body, a {
 }
 
 .container {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container-small{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 //GENERAL PADDINGS
-
 
 //LINE HEIGHT
 .line-height-base {
@@ -118,4 +122,19 @@ body, a {
 //COLORS
 .section-we-do {
   color: $secondary;
+}
+//mixin to responsive design
+@mixin display($size) {
+  @if $size == mobile {
+    @media (max-width: 576px) { @content; }
+  }@else if $size == tablet-small-down {
+    @media (max-width: 768px) { @content; }
+  }
+  @else if $size == tablet-medium-up {
+    @media (min-width: 992px) { @content; }
+  }@else if $size == tablet-medium-down {
+    @media (max-width: 992px) { @content; }
+  }@else if $size == desktop-down {
+    @media (max-width: 1280px) { @content; }
+  }
 }

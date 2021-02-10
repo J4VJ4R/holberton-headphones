@@ -1,7 +1,7 @@
 # Implement a design from scratch
 
 
-![Project image](https://figma.imgix.net/5D67PA2CgBO0UjZJ7JWTjV/94f7b9a121238499537c6be48797944c/Building_Website_Design_Systems_header.png?&w=1060&auto=compress%2Cformat&crop=entropy&fit=crop&q=75)
+![Project image](https://i.postimg.cc/Pr2ZJnLx/headphones.png)
 
 ### Table of content
 
